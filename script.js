@@ -17,6 +17,11 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Aa ja we mahiya',
             artist: 'Artist 2',
             src: 'music/song2.mp3'
+        },
+        {
+            title: 'jug jug',
+            artist: 'Artist 3',
+            src: 'music/song3.mp3'
         }
     ];
 
