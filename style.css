@@ -16,7 +16,7 @@ body {
     width: 100%; /* Ensure the player takes full width of its container */
     max-width: 400px; /* Adjust as needed */
     padding: 20px;
-    background-color: #ffffff; /* Optional: Set background color */
+    background-color: #ca16ca; /* Optional: Set background color */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -48,7 +48,7 @@ body {
 
 #track-artist {
     font-size: 14px;
-    color: #666;
+    color: #9a6cea;
 }
 
 #controls {
@@ -60,7 +60,7 @@ body {
 
 #controls button {
     background-color: #3498db;
-    color: #fff;
+    color: #e90ecb;
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
@@ -79,7 +79,7 @@ input[type="range"] {
     width: 150px;
     margin: 0 10px;
     -webkit-appearance: none;
-    background-color: #ddd;
+    background-color: #bd38ce;
     height: 4px;
     border-radius: 2px;
 }
@@ -93,7 +93,7 @@ input[type="range"]::-webkit-slider-thumb {
     appearance: none;
     width: 10px;
     height: 10px;
-    background-color: #3498db;
+    background-color: #f15b79;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -101,7 +101,7 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-moz-range-thumb {
     width: 10px;
     height: 10px;
-    background-color: #3498db;
+    background-color: #d65858;
     border: none;
     border-radius: 50%;
     cursor: pointer;
