@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="music-player">
+        <div id="track-info">
+            <img id="album-art" src="default-album-art.jpg" alt="Album Art">
+            <div id="track-details">
+                <span id="track-title">Track Title</span>
+                <span id="track-artist">Artist Name</span>
+            </div>
+        </div>
+        <audio id="audio" controls>
+            <source id="audio-source" src="your-audio-file.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div id="controls">
+            <button id="prev">Prev</button>
+            <button id="play-pause">Play</button>
+            <button id="next">Next</button>
+            <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
