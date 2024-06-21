@@ -16,6 +16,9 @@ body {
 }
 
 #music-player {
+    position: fixed; /* Fixed positioning relative to the viewport */
+    bottom: 0; /* Align to the bottom of the viewport */
+    left: 50%;
     width: 100%; /* Ensure the player takes full width of its container */
     max-width: 400px; /* Adjust as needed */
     padding: 20px;
