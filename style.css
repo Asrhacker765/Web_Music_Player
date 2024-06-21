@@ -56,6 +56,7 @@ body {
 }
 
 #controls {
+    color:rgba(161, 12, 94, 0.882) ;
     display: flex;
     justify-content: center;
     align-items: center;
