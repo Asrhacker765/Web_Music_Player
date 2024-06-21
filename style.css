@@ -20,7 +20,6 @@ body {
     bottom: 0; /* Align to the bottom of the viewport */
     left: 50%;
     width: 100%; /* Ensure the player takes full width of its container */
-    max-width: 400px; /* Adjust as needed */
     padding: 20px;
     background-color:black; /* Optional: Set background color */
     border-radius: 10px;
