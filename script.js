@@ -17,22 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'koi si',
             artist: '',
             src: 'music/song2.mp3'
-        }
+        },
         {
             title: 'MI_amor',
             artist: '',
             src: 'music/song3.mp3'
-        }
+        },
         {
             title: 'sajni',
             artist: '',
             src: 'music/song4.mp3'
-        }
+        },
         {
             title: 'Sare tare tod le ava',
             artist: '',
             src: 'music/song5.mp3'
-        }
+        },
         {
             title: 'Bewafa',
             artist: 'Imran khan',
