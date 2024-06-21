@@ -11,32 +11,32 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'JUG JUG JEEVE',
             artist: '',
-            src: 'music/jug_jug.mp3'
+            src: 'music/song1.mp3'
         },
         {
             title: 'koi si',
             artist: '',
-            src: 'music/KOI_SI.mp3'
+            src: 'music/song2.mp3'
         }
         {
             title: 'MI_amor',
             artist: '',
-            src: 'music/MI_amor.mp3'
+            src: 'music/song3.mp3'
         }
         {
             title: 'sajni',
             artist: '',
-            src: 'music/sajni.mp3'
+            src: 'music/song4.mp3'
         }
         {
             title: 'Sare tare tod le ava',
             artist: '',
-            src: 'music/sare_tare.mp3'
+            src: 'music/song5.mp3'
         }
         {
             title: 'Bewafa',
             artist: 'Imran khan',
-            src: 'music/bewafa.mp3'
+            src: 'music/song6.mp3'
         }
     ];
 
