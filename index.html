@@ -1,32 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Player</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body   background="art.jpg">
-    <div class="container">
-        <div id="music-player">
-            <div id="track-info">
-                <div id="track-details">
-                    <span id="track-title">Track Title</span>
-                    <span id="track-artist">Artist Name</span>
-                </div>
-            </div>
-            <audio id="audio" controls>
-                <source id="audio-source" src="music/song1.mp3" type="audio/mp3">
-                Your browser does not support the audio element.
-            </audio>
-            <div id="controls">
-                <button id="prev">Prev</button>
-                <button id="play-pause">Play</button>
-                <button id="next">Next</button>
-                <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
-            </div>
-        </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-</html>
+document.addEventListener('DOMContentLoaded', function() {
+    const audio = document.getElementById('audio');
+    const playPauseBtn = document.getElementById('play-pause');
+    const volumeControl = document.getElementById('volume-control');
+    const nextBtn = document.getElementById('next');
+    const prevBtn = document.getElementById('prev');
+    const trackTitle = document.getElementById('track-title');
+    const trackArtist = document.getElementById('track-artist');
+
+    const tracks = [
+        {
+            title: 'Song 1',
+            artist: 'Artist 1',
+            src: 'music/song1.mp3'
+        },
+        {
+            title: 'Song 2',
+            artist: 'Artist 2',
+            src: 'music/song2.mp3'
+        }
+    ];
+
+    let currentTrackIndex = 0;
+
+    function loadTrack(index) {
+        const track = tracks[index];
+        audio.src = track.src;
+        trackTitle.textContent = track.title;
+        trackArtist.textContent = track.artist;
+        audio.load();
+        audio.play();
+        playPauseBtn.textContent = 'Pause';
+    }
+
+    playPauseBtn.addEventListener('click', function() {
+        if (audio.paused) {
+            audio.play();
+            playPauseBtn.textContent = 'Pause';
+        } else {
+            audio.pause();
+            playPauseBtn.textContent = 'Play';
+        }
+    });
+
+    volumeControl.addEventListener('input', function() {
+        audio.volume = volumeControl.value;
+    });
+
+    nextBtn.addEventListener('click', function() {
+        currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+        loadTrack(currentTrackIndex);
+    });
+
+    prevBtn.addEventListener('click', function() {
+        currentTrackIndex = (currentTrackIndex - 1 + tracks.length) % tracks.length;
+        loadTrack(currentTrackIndex);
+    });
+
+    loadTrack(currentTrackIndex);
+});
+
+
