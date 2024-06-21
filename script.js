@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Bewafa',
             artist: 'Imran khan',
             src: 'music/song6.mp3'
-        }
+        },
     ];
 
     let currentTrackIndex = 0;
