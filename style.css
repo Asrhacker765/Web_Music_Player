@@ -5,6 +5,9 @@ body {
     height: 100vh;
     margin: 0;
     background-image: url(art.jpg); /* Optional: Set background color */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif; /* Optional: Specify a font */
 }
 
