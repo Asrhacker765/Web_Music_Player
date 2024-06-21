@@ -10,27 +10,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const tracks = [
         {
             title: 'JUG JUG JEEVE',
-            artist: '',
+            artist: 'Artist',
             src: 'music/song1.mp3'
         },
         {
             title: 'koi si',
-            artist: '',
+            artist: 'Artist',
             src: 'music/song2.mp3'
         },
         {
             title: 'MI_amor',
-            artist: '',
+            artist: 'Artist',
             src: 'music/song3.mp3'
         },
         {
             title: 'sajni',
-            artist: '',
+            artist: 'Artist',
             src: 'music/song4.mp3'
         },
         {
             title: 'Sare tare tod le ava',
-            artist: '',
+            artist: 'Artist',
             src: 'music/song5.mp3'
         },
         {
