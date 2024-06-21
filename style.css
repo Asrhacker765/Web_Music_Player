@@ -16,7 +16,7 @@ body {
     width: 100%; /* Ensure the player takes full width of its container */
     max-width: 400px; /* Adjust as needed */
     padding: 20px;
-    background-color: #ca16ca; /* Optional: Set background color */
+    background-color:transparent; /* Optional: Set background color */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,15 +40,19 @@ body {
 }
 
 #track-title {
-    color:pink ;
+    color:rgba(161, 12, 94, 0.882) ;
     font-size: 25px;
+    text-align: center;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 #track-artist {
-    font-size: 14px;
-    color: #9a6cea;
+    color:rgba(161, 12, 94, 0.882) ;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 #controls {
@@ -59,8 +63,8 @@ body {
 }
 
 #controls button {
-    background-color: #3498db;
-    color: #e90ecb;
+    background-color: transparent;
+    color:rgba(161, 12, 94, 0.882);
     border: none;
     padding: 10px 20px;
     margin: 0 10px;
@@ -101,7 +105,7 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-moz-range-thumb {
     width: 10px;
     height: 10px;
-    background-color: #d65858;
+    background-color: #b1db19;
     border: none;
     border-radius: 50%;
     cursor: pointer;
