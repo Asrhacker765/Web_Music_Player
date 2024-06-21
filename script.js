@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const prevBtn = document.getElementById('prev');
     const trackTitle = document.getElementById('track-title');
     const trackArtist = document.getElementById('track-artist');
+    document.getElementById('audio').style.display = 'none';
 
     const tracks = [
         {
