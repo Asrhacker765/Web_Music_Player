@@ -6,23 +6,26 @@
     <title>Music Player</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body background="art.jpg">
-    <div id="music-player">
-        <div id="track-info">
-            <div id="track-details">
-                <span id="track-title">Track Title</span>
-                <span id="track-artist">Artist Name</span>
+<body>
+    <div class="container">
+        <div id="music-player">
+            <div id="track-info">
+                <img id="album-art" src="default-album-art.jpg" alt="Album Art">
+                <div id="track-details">
+                    <span id="track-title">Track Title</span>
+                    <span id="track-artist">Artist Name</span>
+                </div>
             </div>
-        </div>
-        <audio id="audio" controls>
-            <source id="audio-source" src="music/song1.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <div id="controls">
-            <button id="prev">Prev</button>
-            <button id="play-pause">Play</button>
-            <button id="next">Next</button>
-            <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
+            <audio id="audio" controls>
+                <source id="audio-source" src="music/song1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div id="controls">
+                <button id="prev">Prev</button>
+                <button id="play-pause">Play</button>
+                <button id="next">Next</button>
+                <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
