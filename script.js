@@ -56,5 +56,10 @@ document.addEventListener('DOMContentLoaded', function() {
         loadTrack(currentTrackIndex);
     });
 
+    audio.addEventListener('ended', function() {
+        currentTrackIndex = (currentTrackIndex + 1) % tracks.length;
+        loadTrack(currentTrackIndex);
+    });
+
     loadTrack(currentTrackIndex);
 });
