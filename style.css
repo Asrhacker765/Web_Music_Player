@@ -40,9 +40,10 @@ body {
 }
 
 #track-title {
-    font-size: 18px;
+    color:pink ;
+    font-size: 25px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #track-artist {
