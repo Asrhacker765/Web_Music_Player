@@ -75,6 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    animation: colorChange 3s infinite;
 }
 
 #controls button {
@@ -88,10 +89,11 @@ body {
     font-size: 16px;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
+    animation: colorChange 3s infinite;
 }
 
 #controls button:hover {
-    background-color: #2980b9;
+    background-color: #dc2ea5;
 }
 
 input[type="range"] {

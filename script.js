@@ -10,32 +10,32 @@ document.addEventListener('DOMContentLoaded', function() {
     const tracks = [
         {
             title: 'Bewafa',
-            artist: 'Artist 1',
+            artist: '',
             src: 'music/song1.mp3'
         },
         {
             title: 'Aa ja we mahiya',
-            artist: 'Artist 2',
+            artist: '',
             src: 'music/song2.mp3'
         },
         {
             title: 'JUG JUG JEEVE',
-            artist: 'Artist 3',
+            artist: '',
             src: 'music/song3.mp3'
         },
         {
             title: 'koi si',
-            artist: 'Artist 4',
+            artist: '',
             src: 'music/song4.mp3'
         },
         {
             title: 'MI_amor',
-            artist: 'Artist 5',
+            artist: '',
             src: 'music/song5.mp3'
         },
         {
             title: 'sajni',
-            artist: 'Artist 6',
+            artist: '',
             src: 'music/song6.mp3'
         }
     ];
