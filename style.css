@@ -13,8 +13,8 @@ body {
 }
 
 #music-player {
+    width: 100%; /* Ensure the player takes full width of its container */
     max-width: 400px; /* Adjust as needed */
-    margin: 0 auto; /* Center align horizontally */
     padding: 20px;
     background-color: #ffffff; /* Optional: Set background color */
     border-radius: 10px;
