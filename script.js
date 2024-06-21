@@ -19,9 +19,24 @@ document.addEventListener('DOMContentLoaded', function() {
             src: 'music/song2.mp3'
         },
         {
-            title: 'jug jug',
+            title: 'JUG JUG JEEVE',
             artist: 'Artist 3',
             src: 'music/song3.mp3'
+        },
+        {
+            title: 'koi si',
+            artist: 'Artist 4',
+            src: 'music/song4.mp3'
+        },
+        {
+            title: 'MI_amor',
+            artist: 'Artist 5',
+            src: 'music/song5.mp3'
+        },
+        {
+            title: 'sajni',
+            artist: 'Artist 6',
+            src: 'music/song6.mp3'
         }
     ];
 
