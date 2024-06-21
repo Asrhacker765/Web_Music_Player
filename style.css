@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0; /* Optional: Set background color */
+    font-family: Arial, sans-serif; /* Optional: Specify a font */
 }
 
 .container {
@@ -38,6 +39,17 @@ body {
     text-align: left; /* Adjust as needed */
 }
 
+#track-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#track-artist {
+    font-size: 14px;
+    color: #666;
+}
+
 #controls {
     display: flex;
     justify-content: center;
@@ -46,5 +58,50 @@ body {
 }
 
 #controls button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
     margin: 0 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+    background-color: #2980b9;
+}
+
+input[type="range"] {
+    width: 150px;
+    margin: 0 10px;
+    -webkit-appearance: none;
+    background-color: #ddd;
+    height: 4px;
+    border-radius: 2px;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
 }
