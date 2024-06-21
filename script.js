@@ -9,14 +9,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const tracks = [
         {
-            title: 'Song 1',
-            artist: 'Artist 1',
-            src: 'music/song1.mp3'
+            title: 'JUG JUG JEEVE',
+            artist: '',
+            src: 'music/jug_jug.mp3'
         },
         {
-            title: 'Song 2',
-            artist: 'Artist 2',
-            src: 'music/song2.mp3'
+            title: 'koi si',
+            artist: '',
+            src: 'music/KOI_SI.mp3'
+        }
+        {
+            title: 'MI_amor',
+            artist: '',
+            src: 'music/MI_amor.mp3'
+        }
+        {
+            title: 'sajni',
+            artist: '',
+            src: 'music/sajni.mp3'
+        }
+        {
+            title: 'Sare tare tod le ava',
+            artist: '',
+            src: 'music/sare_tare.mp3'
+        }
+        {
+            title: 'Bewafa',
+            artist: 'Imran khan',
+            src: 'music/bewafa.mp3'
         }
     ];
 
