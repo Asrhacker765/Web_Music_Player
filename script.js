@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const tracks = [
         {
-            title: 'Song 1',
+            title: 'Bewafa',
             artist: 'Artist 1',
             src: 'music/song1.mp3'
         },
         {
-            title: 'Song 2',
+            title: 'Aa ja we mahiya',
             artist: 'Artist 2',
             src: 'music/song2.mp3'
         }
